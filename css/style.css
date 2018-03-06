@@ -1,0 +1,49 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+#cover{
+	background: #222 url('../img/stars-feature-1.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height:100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+#form-test{
+	display: flex;
+	justify-content: center;
+}
+#cover-caption{
+	width: 100%;
+
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	margin-right: 30px;
+	border-radius: 50%;
+}
+.carousel-indicators li:last-child{
+	margin-right: 0px;
+}
+.section-content{
+	padding: 3rem 0;
+}
+#about-me{
+	background-image: url('../img/woman-camera.jpg');
+	background-size: cover;
+}
+.about-text{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 30px;
+}
+#footer-main{
+	background-color: #222;
+	color: white;
+	padding: 2.875rem;
+}
