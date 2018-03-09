@@ -44,3 +44,6 @@ body{
 	color: white;
 	padding: 2.875rem;
 }
+.card-body{
+	flex: unset;
+}
